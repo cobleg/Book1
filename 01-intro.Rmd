@@ -49,7 +49,7 @@ knitr::include_graphics(".\\images\\GitHub Pages.png")
 
 Also, I inserted a line in `_bookdown.yml` to define `docs` as the destination folder for the book being hosted on GitHub.
 ```{r, echo=TRUE, out.width="150%"}
-knitr::include_graphics(".\\images\\_bookdown_yml insertion.png")
+knitr::include_graphics(".\\images\\bookdown_yml insertion.png")
 ```
 
 Also inserted a line in the `.gitignore` file for `_bookdown_files`

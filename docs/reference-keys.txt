@@ -10,7 +10,7 @@ introduction
 a-section
 additional-information
 summary-of-what-i-learned
-elements-about-github
+elements-related-to-publishing-on-github
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables

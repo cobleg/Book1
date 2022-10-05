@@ -14,5 +14,5 @@ The **bookdown** package reference site: <https://pkgs.rstudio.com/bookdown>
 
 # Dear future me
 
-I know you will forget key details about producing and publishing technical reports using Bookdown, so I have added specific bits of information that are not included in the standard Minimal Example. So I have added them under the heading: Additional Information.
+I know you will forget key details about producing and publishing technical reports using Bookdown, so I have added specific bits of information that are not included in the standard Minimal Example under the heading: Additional Information.
 

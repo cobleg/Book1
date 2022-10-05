@@ -1,4 +1,6 @@
-# Hello bookdown 
+# Introduction
+
+This is an enhanced Minimal Book Example, highlighting some shortcuts to the publishing process. Also, this example provides some guidance for adapting the Minimal Book Example with tips on changing colour schemes, fonts etc. Most of the original Minimal Book Example has been left in place.Apart from this insertion, the augmented Minimal Book Example tips are provided under the heading: Additional Information.
 
 All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
 
@@ -9,3 +11,50 @@ All chapter sections start with a second-level (`##`) or higher heading followed
 ### An unnumbered section {-}
 
 Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+
+## Additional information
+
+There is information available on the Internet that provides guidance on producing and publishing bookdown artefacts such as books, technical reports, academic papers etc. Here is a shortlist that I found helpful:
+
+- Yihui Xie (2022). [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/), CRC Publishing.
+
+- [R for the Rest of Us](https://youtu.be/9i0ElncHGRg)
+
+- [Hosting bookdown in github](https://community.rstudio.com/t/hosting-bookdown-in-github/20427)
+
+- [Bookdown and GitHub Pages](https://youtu.be/RdSmYvbQkhs)
+
+- [SSH Permission Denied (PublicKey) Error on GitHub Solved](https://www.youtube.com/watch?v=Irj-2tmV0JM)
+
+- Alison Hill (2021). [Day 04: bookdown || rmarkdown + bookdown + GitHub actions + renv + Netlify](https://youtu.be/_ptrgqx2zUs)
+
+### Summary of what I learned
+
+My main focus has been how to:
+
+- Adapt the format of bookdown to produce technical reports.
+
+- Publish on GitHub
+
+- Export to Word since most clients still want a technical report in Word.
+
+My outline here is based on exception, i.e. deviations from what was demonstrated in the shortlist presented above. This reflects gaps in my knowledge, which led to considerable frustration. 
+
+#### Elements related to publishing on GitHub
+The pathway deviation on publishing on GitHub was to switch-on GitHub Pages: [Changing the visibility of your GitHub Pages site](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site)
+
+```{r, echo=FALSE}
+knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\GitHub Pages.png")
+```
+
+Also, I inserted a line in `_bookdown.yml` to define `docs` as the destination folder for the book being hosted on GitHub.
+```{r, echo=TRUE, out.width="150%"}
+knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\_bookdown_yml insertion.png")
+```
+
+Also inserted a line in the `.gitignore` file for `_bookdown_files`
+
+```{r, echo=FALSE, out.width="200%"}
+knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\gitignore insertion.png")
+```
+

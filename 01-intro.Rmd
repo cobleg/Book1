@@ -44,17 +44,17 @@ My outline here is based on exception, i.e. deviations from what was demonstrate
 The pathway deviation on publishing on GitHub was to switch-on GitHub Pages: [Changing the visibility of your GitHub Pages site](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site)
 
 ```{r, echo=FALSE}
-knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\GitHub Pages.png")
+knitr::include_graphics(".\\docs\\_bookdown_files\\_main_files\\figure-html\\GitHub Pages.png")
 ```
 
 Also, I inserted a line in `_bookdown.yml` to define `docs` as the destination folder for the book being hosted on GitHub.
 ```{r, echo=TRUE, out.width="150%"}
-knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\_bookdown_yml insertion.png")
+knitr::include_graphics(".\\docs\\_bookdown_files\\_main_files\\figure-html\\_bookdown_yml insertion.png")
 ```
 
 Also inserted a line in the `.gitignore` file for `_bookdown_files`
 
 ```{r, echo=FALSE, out.width="200%"}
-knitr::include_graphics(".\\_bookdown_files\\_main_files\\figure-html\\gitignore insertion.png")
+knitr::include_graphics(".\\docs\\_bookdown_files\\_main_files\\figure-html\\gitignore insertion.png")
 ```
 

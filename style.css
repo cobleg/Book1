@@ -1,3 +1,11 @@
+
+h1 {
+  font-size: 40px;
+  font-style: bold;
+  color: #231EDC;
+}
+
+
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -11,4 +19,11 @@ pre {
 }
 pre code {
   white-space: inherit;
+}
+
+.container-fluid {
+    max-width: 200rem;
+}
+.container-fluid main {
+    max-width: 55rem;
 }

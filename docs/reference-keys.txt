@@ -1,7 +1,6 @@
 fig:nice-fig
 tab:nice-tab
 eq:binom
-thm:tri
 about
 usage
 render-book
@@ -10,6 +9,7 @@ introduction
 a-section
 additional-information
 summary-of-what-i-learned
+elements-related-to-changing-the-format-of-the-book
 elements-related-to-publishing-on-github
 cross
 chapters-and-sub-chapters
